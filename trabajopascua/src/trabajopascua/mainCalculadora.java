@@ -8,7 +8,7 @@ public class mainCalculadora {
 	public static Scanner lector=new Scanner(System.in);
 	public static void main(String[] args) {
 		
-
+		//loco
 		int opc=0;
 		do{
 			System.out.println("Dime el primer valor:");
