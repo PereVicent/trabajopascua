@@ -1,6 +1,19 @@
 package trabajopascua;
 import java.util.*;
 public class mainCalculadora {
+	/*
+	 * Metodo de suma y multiplicacion 
+	 * Programador Junior ALain
+	 */
+	
+	public static void Suma(double a,double b){
+		System.out.println("La suma de "+a+" y "+ b+":"+(a+b));
+	}
+	public static void Multiplicacion(double a,double b){
+			System.out.println("La Multiplicacion de "+a+" y "+b+":"+(a*b));
+		
+	}
+	
 
 	public static Scanner lector=new Scanner(System.in);
 	public static void main(String[] args) {
@@ -25,10 +38,13 @@ public class mainCalculadora {
 			  	lector.nextLine();
 			  	switch(opc){
 			  	case 1:
+			  		Suma(a,b);//metodo greado por Programador Junio Alain
 			  		break;
 			  	case 2:
+			  		
 			  		break;
 			  	case 3:
+			  		Multiplicacion(a, b);//metodo greado por Programador Junio Alain
 			  		break;
 			  	case 4:
 			  		break;
