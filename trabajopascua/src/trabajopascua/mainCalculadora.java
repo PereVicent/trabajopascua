@@ -15,6 +15,13 @@ public class mainCalculadora {
 		 	 	double b=lector.nextDouble();
 		 	 	lector.nextLine();
 			System.out.println("===MENÚ===");
+			System.out.println("1.-SUMA");
+			System.out.println("2.-RESTA");
+			System.out.println("3.-MULTIPLICA");
+			System.out.println("4.-DIVIDE");
+			System.out.println("0.-SALIR DEL PROGRAMA");
+			System.out.println("===ELIGE UNA OPCIÓN===");
+			
 		}while(opc!=0);
 	}
 
