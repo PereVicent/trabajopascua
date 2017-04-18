@@ -1,7 +1,10 @@
 package trabajopascua;
 import java.util.*;
 public class mainCalculadora {
-
+	
+	public static void restar(double a, double b){
+		System.out.println("La resta de los dos numeros son"+(a-b));
+	}
 	public static Scanner lector=new Scanner(System.in);
 	public static void main(String[] args) {
 		
@@ -27,6 +30,7 @@ public class mainCalculadora {
 			  	case 1:
 			  		break;
 			  	case 2:
+			  		restar(a,b);
 			  		break;
 			  	case 3:
 			  		break;
