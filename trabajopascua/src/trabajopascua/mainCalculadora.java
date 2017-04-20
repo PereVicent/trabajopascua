@@ -14,7 +14,17 @@ public class mainCalculadora {
 		
 	}
 	
-
+	/*
+	 * Metodos restar y dividir
+	 * Programador Stalin Padilla
+	 */
+	public static void Restar(double a,double b){
+		System.out.println("La resta de "+a+" y "+ b+" son: "+(a-b));
+	}
+	public static void Dividir(double a,double b){
+			System.out.println("La division de "+a+" y "+b+" son: "+(a/b));
+		
+	}
 	public static Scanner lector=new Scanner(System.in);
 	public static void main(String[] args) {
 		
@@ -41,12 +51,13 @@ public class mainCalculadora {
 			  		Suma(a,b);//metodo greado por Programador Junio Alain
 			  		break;
 			  	case 2:
-			  		
+			  		Restar(a,b);//Metodo de Stalin Padilla
 			  		break;
 			  	case 3:
 			  		Multiplicacion(a, b);//metodo greado por Programador Junio Alain
 			  		break;
 			  	case 4:
+			  		Dividir(a, b);//Metodo de Stalin Padilla
 			  		break;
 			  	case 0:
 			  		System.out.println("PROGRAMA FINALIZADO!!!");
